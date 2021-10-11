@@ -1,0 +1,39 @@
+{
+  "name": "DropDown",
+  "version": "2.3.13",
+  "summary": "A Material Design drop down",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n This drop down is to overcome the loss of usability and user experience due to the UIPickerView. Material Design did a good job there so this drop down is very inspired by it. It appears at the right location instead of the bottom of the screen as default with UIPickerView and if possible, all options are displayed at once.",
+  "homepage": "https://github.com/AssistoLab/DropDown",
+  "screenshots": [
+    "https://github.com/AssistoLab/DropDown/blob/master/Screenshots/1.png?raw=true",
+    "https://github.com/AssistoLab/DropDown/blob/master/Screenshots/2.png?raw=true"
+  ],
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevin-hirsch": "kevin.hirsch.be@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/kevinh6113",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/DropDown/2.3.13/zip",
+    "type": "zip"
+  },
+  "source_files": [
+    "DropDown/src",
+    "DropDown/src/**/*.{h,m}",
+    "DropDown/helpers",
+    "DropDown/helpers/**/*.{h,m}"
+  ],
+  "resources": [
+    "DropDown.framework/Resources/*.{png,xib}",
+    "DropDown.framework/Versions/A/Resources/*.{png,xib}"
+  ],
+  "requires_arc": true,
+  "vendored_frameworks": "DropDown.framework",
+  "swift_version": "5.0"
+}
