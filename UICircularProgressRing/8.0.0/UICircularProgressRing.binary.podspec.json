@@ -1,0 +1,28 @@
+{
+  "name": "UICircularProgressRing",
+  "version": "8.0.0",
+  "homepage": "http://ucpr.luispadron.com",
+  "summary": "A highly customizable circular progress bar for iOS written in Swift",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n A highly customizable circular progress bar for iOS written in Swift, with Interface Builder support.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Luis Padron": "heyluispadron@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/UICircularProgressRing/8.0.0/zip",
+    "type": "zip"
+  },
+  "source_files": [
+    "Legacy",
+    "Legacy/**/*.{h,m,swift}"
+  ],
+  "swift_versions": "5.3",
+  "vendored_frameworks": "UICircularProgressRing.framework",
+  "swift_version": "5.3"
+}
