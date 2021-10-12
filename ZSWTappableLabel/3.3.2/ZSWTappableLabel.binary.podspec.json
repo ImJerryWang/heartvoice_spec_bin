@@ -1,0 +1,27 @@
+{
+  "name": "ZSWTappableLabel",
+  "version": "3.3.2",
+  "summary": "UILabel subclass for links which are tappable, long-pressable, 3D Touchable, and VoiceOverable.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n NSAttributedStrings displayed in ZSWTappableLabel can be tapped, long-pressed, 3D Touched, or interacted with using VoiceOver in substrings you specify using string attributes. Read more: https://github.com/zacwest/ZSWTappableLabel",
+  "homepage": "https://github.com/zacwest/ZSWTappableLabel",
+  "license": "MIT",
+  "authors": {
+    "Zachary West": "zacwest@gmail.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/ZSWTappableLabel/3.3.2/zip",
+    "type": "zip"
+  },
+  "social_media_url": "https://twitter.com/zacwest",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "private_header_files": "ZSWTappableLabel/**/Private/*.h",
+  "public_header_files": "ZSWTappableLabel/**/Public/*.h",
+  "source_files": "ZSWTappableLabel/**/*",
+  "vendored_frameworks": "ZSWTappableLabel.framework"
+}
