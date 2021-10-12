@@ -1,0 +1,36 @@
+{
+  "name": "XLPagerTabStrip",
+  "version": "9.0.0",
+  "summary": "Android PagerTabStrip for iOS and much more.",
+  "homepage": "https://github.com/xmartlabs/XLPagerTabStrip",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Martin Barreto": "martin@xmartlabs.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/XLPagerTabStrip/9.0.0/zip",
+    "type": "zip"
+  },
+  "social_media_url": "https://twitter.com/xmartlabs",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "requires_arc": true,
+  "ios": {
+    "source_files": "Sources/**/*.{h,m,swift}",
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "vendored_frameworks": "XLPagerTabStrip.framework",
+  "resources": [
+    "XLPagerTabStrip.framework/Resources/*.bundle",
+    "XLPagerTabStrip.framework/Versions/A/Resources/*.bundle"
+  ],
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」",
+  "swift_version": "5.0"
+}
